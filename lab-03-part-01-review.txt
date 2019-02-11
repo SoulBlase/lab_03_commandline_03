@@ -15,7 +15,8 @@ This lab will review downloading and uncompressing files, and it will get us set
 
 Write the command that you used to do this below:
 ----------
-
+ent-v314-015:~ student$ pwd
+/Users/student
 
 
 ==========
@@ -23,7 +24,8 @@ Write the command that you used to do this below:
 
 Write the command that you used to do this - as well as its output - below :
 ----------
-
+ent-v314-015:~ student$ pwd
+/Users/student
 
 
 ==========
@@ -31,13 +33,15 @@ Write the command that you used to do this - as well as its output - below :
 
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
-
+Yes.
+ent-v314-015:~ student$ ls
+mtec1002-lab-02.zip
 
 
 ==========
 4. If there are directories or files in your home directory that have the word mtec1002 in them, list them below (otherwise skip this step):
 ----------
-
+Already checked
 
 
 ==========
@@ -65,7 +69,10 @@ This command should have a *flag* to specify the output file.  MAKE SURE TO NAME
 
 Write the command(s) that you used to download this file - as well as its output - below:
 ----------
-
+ent-v314-015:~ student$ curl -o mtec1002-lab-03.tar.gz http://foureyes.github.io/mtec1002-spring2014/labs/03/mtec1002-lab-03.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   178  100   178    0     0   6137      0 --:--:-- --:--:-- --:--:--  6137
 
 
 ==========
@@ -73,7 +80,59 @@ Write the command(s) that you used to download this file - as well as its output
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-
+ent-v314-015:downloads student$ tar -xvf mtec1002-lab-03.tar.gz
+x mtec1002-lab-03/
+x mtec1002-lab-03/._.DS_Store
+x mtec1002-lab-03/.DS_Store
+x mtec1002-lab-03/books/
+x mtec1002-lab-03/logs/
+x mtec1002-lab-03/web/
+x mtec1002-lab-03/web/about.html
+x mtec1002-lab-03/web/css/
+x mtec1002-lab-03/web/img/
+x mtec1002-lab-03/web/index.html
+x mtec1002-lab-03/web/img/otters-1.jpg
+x mtec1002-lab-03/web/img/otters-2.jpg
+x mtec1002-lab-03/web/img/otters-3.jpg
+x mtec1002-lab-03/web/img/otters-4.jpg
+x mtec1002-lab-03/web/img/otters-5.jpg
+x mtec1002-lab-03/web/css/screen.css
+x mtec1002-lab-03/logs/._.DS_Store
+x mtec1002-lab-03/logs/.DS_Store
+x mtec1002-lab-03/logs/access-0.log
+x mtec1002-lab-03/logs/access-1.log
+x mtec1002-lab-03/logs/access-10.log
+x mtec1002-lab-03/logs/access-11.log
+x mtec1002-lab-03/logs/access-111.log
+x mtec1002-lab-03/logs/access-112.log
+x mtec1002-lab-03/logs/access-113.log
+x mtec1002-lab-03/logs/access-114.log
+x mtec1002-lab-03/logs/access-115.log
+x mtec1002-lab-03/logs/access-12.log
+x mtec1002-lab-03/logs/access-122.log
+x mtec1002-lab-03/logs/access-13.log
+x mtec1002-lab-03/logs/access-14.log
+x mtec1002-lab-03/logs/access-15.log
+x mtec1002-lab-03/logs/archived/
+x mtec1002-lab-03/logs/archived/access-100.log
+x mtec1002-lab-03/logs/archived/access-101.log
+x mtec1002-lab-03/logs/archived/access-102.log
+x mtec1002-lab-03/logs/archived/access-104.log
+x mtec1002-lab-03/logs/archived/access-105.log
+x mtec1002-lab-03/logs/archived/access-106.log
+x mtec1002-lab-03/logs/archived/access-107.log
+x mtec1002-lab-03/logs/archived/access-108.log
+x mtec1002-lab-03/logs/archived/access-109.log
+x mtec1002-lab-03/logs/archived/access-110.log
+x mtec1002-lab-03/logs/archived/access-116.log
+x mtec1002-lab-03/logs/archived/access-117.log
+x mtec1002-lab-03/logs/archived/access-118.log
+x mtec1002-lab-03/logs/archived/access-119.log
+x mtec1002-lab-03/books/other/
+x mtec1002-lab-03/books/science-fiction/
+x mtec1002-lab-03/books/science-fiction/pg84.txt
+x mtec1002-lab-03/books/science-fiction/pg86.txt
+x mtec1002-lab-03/books/other/pg1232.txt
 
 
 ==========
@@ -88,7 +147,8 @@ Otherwise...
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-
+ent-v314-015:~ student$ ls
+mtec1002-lab-03.tar.gz
 
 
 ==========
@@ -96,7 +156,9 @@ Write the command(s) that you used to do this - as well as its output - below:
 
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
-
+ent-v314-015:~ student$ cd downloads 
+ent-v314-015:downloads student$ ls
+AaronBusinessCard.ai	mtec1002-lab-03		mtec1002-lab-03.tar.gz
 
 
 ==========
