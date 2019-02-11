@@ -36,7 +36,9 @@ $ touch foo.txt
 $ ls
 Copy and paste the output below.
 ----------
-
+ent-v314-015:my_files student$ touch foo.txt
+ent-v314-015:my_files student$ ls
+foo.txt
 
 
 ==========
@@ -52,7 +54,10 @@ $ touch bar.txt
 
 Copy and paste the output below.
 ----------
-
+ent-v314-015:my_files student$ ls -l
+total 0
+-rw-r--r--  1 student  staff  0 Feb 11 16:29 bar.txt
+-rw-r--r--  1 student  staff  0 Feb 11 16:28 foo.txt
 
 
 ==========
@@ -61,7 +66,10 @@ Copy and paste the output below.
 
 Write the command that you used to copy the file.  Additionally, copy and paste the output of your file listing below.
 ----------
-
+ent-v314-015:my_files student$ cp bar.txt baz.txt
+ent-v314-015:my_files student$ ls 
+bar.txt	baz.txt	foo.txt
+ent-v314-015:my_files student$
 
 
 ==========
@@ -69,13 +77,18 @@ Write the command that you used to copy the file.  Additionally, copy and paste 
 
 Write the command that you used to remove the file.  Copy and paste the output of your file listing below.
 ----------
+ent-v314-015:my_files student$ rm bar.txt
+ent-v314-015:my_files student$ ls
+baz.txt	foo.txt
 ==========
 11. Move the file called foo.txt to qux.txt and then list the files again.
 
 
 Write the command that you used to move the file.  Copy and paste the output of your file listing below.
 ----------
-
+ent-v314-015:my_files student$ mv foo.txt qux.txt
+ent-v314-015:my_files student$ ls
+baz.txt	qux.txt
 
 
 ==========
@@ -90,7 +103,8 @@ Write the command that you used to move the file.  Copy and paste the output of 
 
 Write out the command that you used and what happened.
 ----------
-
+ent-v314-015:mtec1002-lab-03 student$ rmdir my_files
+rmdir: my_files: Directory not empty
 
 
 ==========
@@ -98,7 +112,8 @@ Write out the command that you used and what happened.
 
 Write out the command that you used and what happened.
 ----------
-
+ent-v314-015:mtec1002-lab-03 student$ rm my_files
+rm: my_files: is a directory
 
 
 ==========
@@ -120,7 +135,7 @@ Use the command called cat on the file to show its contents.
 
 Describe what happened below.
 ----------
-
+All of the file's text appeared.
 
 
 ==========
@@ -132,7 +147,7 @@ Use the command, head, on the file to show the contents of the beginning of the 
 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
-
+Title: The Prince
 
 
 ==========
