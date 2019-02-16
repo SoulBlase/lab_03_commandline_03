@@ -159,7 +159,12 @@ Use tail on the file to show the contents of the end of the file.
 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
-
+Quincy@DESKTOP-GMRF7TO MINGW64 ~/downloads/mtec1002-lab-03
+$ tail books/other/pg1232.txt
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
 
 
 ==========
@@ -171,7 +176,12 @@ Use less and more on the file to show the contents of the file.  Try pressing sp
 
 Write the command that you used below.  Describe what spacebar and q does after using either less or more.
 ----------
+Quincy@DESKTOP-GMRF7TO MINGW64 ~/downloads/mtec1002-lab-03
+$ less books/other/pg1232.txt
+Quincy@DESKTOP-GMRF7TO MINGW64 ~/downloads/mtec1002-lab-03
+$ more books/other/pg1232.txt
 
+The Spacbar comand moves the page downward, and q is the comand quits the page when using less or more.
 
 
 ==========
@@ -179,15 +189,26 @@ Write the command that you used below.  Describe what spacebar and q does after 
 
 (Some characteristics that may help your description might be the length of the file, whether or not you'd like to read the whole thing... or just the beginning or end, etc.)
 ----------
+You would use the cat command if you want to read the entire file.
+You would use the head command in a situation where one wants the read the beginning of a file.
+You would use the tail command in a situation where one wants to read the end of a file.
+You would use the less and more in a situation where one wants to read the contents of a file with the ability to search to search for a specific page or numbers with a page (pagination).
 
 
 
 ==========
 21.  How many words are in pg1232.txt?  What command did you use to determine the word count?
 ----------
-
+You use the wc command (and the -w flag) to determine the word count.
+Quincy@DESKTOP-GMRF7TO MINGW64 ~/downloads/mtec1002-lab-03
+$ wc -w books/other/pg1232.txt
+52639 books/other/pg1232.txt
 
 
 ==========
 22.  How many lines are in pg1232.txt?  What command did you use to determine the line count?
 ----------
+You use the wc command, with the -l flag, to determing the line count.
+Quincy@DESKTOP-GMRF7TO MINGW64 ~/downloads/mtec1002-lab-03
+$ wc -l books/other/pg1232.txt
+5063 books/other/pg1232.txt
