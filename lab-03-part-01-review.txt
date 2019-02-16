@@ -166,7 +166,8 @@ AaronBusinessCard.ai	mtec1002-lab-03		mtec1002-lab-03.tar.gz
 
 Write the command(s) (including going home) that you used to do this below:
 ----------
-
+Quincy@DESKTOP-GMRF7TO MINGW64 ~/downloads/mtec1002-lab-03/books
+$ cd science-fiction
 
 
 ==========
@@ -174,7 +175,9 @@ Write the command(s) (including going home) that you used to do this below:
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-
+Quincy@DESKTOP-GMRF7TO MINGW64 ~/downloads/mtec1002-lab-03/books/science-fiction
+$ ls
+pg84.txt  pg86.txt
 
 
 ==========
@@ -182,7 +185,12 @@ Write the command(s) that you used to do this - as well as its output - below:
 
 Write the command(s) that you used to do this below:
 ----------
+Quincy@DESKTOP-GMRF7TO MINGW64 ~/downloads
+$ cd ~/downloads/mtec1002-lab-03/books/science-fiction
 
+Quincy@DESKTOP-GMRF7TO MINGW64 ~/downloads/mtec1002-lab-03/books/science-fiction
+$ pwd
+/c/Users/Quincy/downloads/mtec1002-lab-03/books/science-fiction
 ==========
 OPTIONAL
 13. Immediately change back to the mtec1002-lab-03 folder with a single command using a *relative* path.
